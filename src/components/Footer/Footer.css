@@ -1,16 +1,3 @@
-.footer {
-    display: flex;
-    justify-content: center;
-    margin-top: -10px;
-}
-
-.footerInnerWrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 800%;
-}
-
 .footerInner {
     display: flex;
     justify-content: space-between;
@@ -20,7 +7,5 @@
     background-color: black;
 }
 
-.footerInnerSecond {
-    margin-top: -100px;
-}
+
 

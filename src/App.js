@@ -26,7 +26,6 @@ function App() {
           <Route path="/candle" element={<Candle />} />
           <Route path="/grooming" element={<Grooming />} />
           <Route path="/Mbti" element={<Mbti />} />
-          
         </Routes>
         <Footer/>
       </div>

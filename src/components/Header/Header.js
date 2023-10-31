@@ -5,19 +5,13 @@ import { useState } from 'react';
 
 export default function Header() {
   const [active,setActive] = useState("nav__menu");
-  const [toggleIcon, setToggleIcon] = useState("nav__toggler");
+  
 
 
   const navToggle = ()=>{
     active === "nav__menu"
     ? setActive("nav__menu__active")
     : setActive("nav__menu");
-
-    // togglerIcon
-    
-    toggleIcon === "nav__toggler"
-    ? setToggleIcon("nav__toggler toggle")
-    : setToggleIcon("nav__toggler");
   };
 
 
@@ -31,11 +25,6 @@ export default function Header() {
         <li className="nav__item"> <Link to='/Grooming' className="nav__link">그루밍</Link></li>
         <li className="nav__item"><Link to='/Mbti' className="nav__link">MBTI별 향수 추천</Link></li>
       </ul>
-      <div onClick={navToggle} className={toggleIcon}>
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
-      </div>
     </nav>
   );
 }

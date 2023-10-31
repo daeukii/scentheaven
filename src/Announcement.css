@@ -7,19 +7,8 @@
 .announcement {
     background: #5072A7;
     color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 1rem 0;
     font-size: 1.5rem;
-    
-}
-
-.announcement-text{
-    display: flex;
-    align-items: center;
-    margin-right: 2rem;
-    
 }
 
 .text1 span{
@@ -27,15 +16,4 @@
     font-family: 'KCCChassam';
 }
 
-.text2 span{
-    margin-right: 10rem;
-    font-family: 'KCCChassam';
-}
 
-.text2 span:not(:last-child){
-    margin-right: 2rem;
-}
-
-.text2 span:last-child{
-    margin-right: 2rem;
-}

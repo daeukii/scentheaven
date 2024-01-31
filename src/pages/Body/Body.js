@@ -17,6 +17,7 @@ export default function Body() {
   },[]);
 
   return (
+    <div>
     <div className='name__price'>
       <div>
         {products[6].name}
@@ -28,6 +29,7 @@ export default function Body() {
           {products[6].txt}
         </div>
       </div>
+    </div>
     </div>
   )
 }

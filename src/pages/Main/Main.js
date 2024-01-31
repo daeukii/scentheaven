@@ -4,7 +4,6 @@ import Weather from '../../components/Weather/Weather';
 import products from '../../../src/api/products.json';
 import { useState, useEffect } from 'react';
 import Marquee from 'react-fast-marquee';
-import './main.css';
 
 export default function Main() {
     const [name, setName] = useState();
@@ -19,9 +18,7 @@ export default function Main() {
 
     return (
         <div>
-            <div>
-                <Weather />
-            </div>
+           
             <div className='react-vid'> 
                 <ReactPlayer
                     url={"https://youtu.be/DHB6gEKf34U"}

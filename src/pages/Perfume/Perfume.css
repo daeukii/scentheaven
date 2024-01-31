@@ -1,30 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
 
-@font-face {
-    font-family: 'SUIT-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'KimjungchulMyungjo-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KCCChassam';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
 
 
 body {
@@ -33,12 +8,6 @@ body {
     align-items: center;
     background: white;
 }
-
-
-.container h1{
-    font-family: 'KCCChassam';
-}
-
 
 
 .container:hover {
@@ -81,22 +50,7 @@ body {
     transition-delay: 0.3s;
 }
 
-
-
-.mbti-font .mbti-mbti {
-    font-family: 'KimjungchulMyungjo-Bold';
-    font-size: 10rem;
-    padding: 5px;
-}
-
-.mbti-font .mbti-infomation {
-    font-family: 'KCCChassam';
-    font-size: 2rem;
-    background-color: rgb(248, 237, 237);
-}
-
 .mbti-font .mbti-name {
-    font-family: 'KCCChassam';
     font-size: 4rem;
     animation-name: movingback;
     animation-duration: 2s;
@@ -114,25 +68,12 @@ body {
     100% { transform: translate(0,0);}
 }
 
-.submit-button{
-    font-family: 'KCCChassam';
-    font-size: 1.5rem;
-    border-radius: 3px;
-    width: 100px;
-    height: 55px;
-}
-
-.submit-button:hover{
-    background: yellow;
-}
-
 .submiT{
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 50px;
-    width: 1000px;
     text-align: center;
 }
+
 .mbti-img{
     animation-name: movingback;
     animation-duration: 9s;
@@ -145,4 +86,16 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
+}
+
+.perfume_c{
+    margin: 300px 0 300px 0;
+}
+
+.text {
+    margin: 40px 0 40px 0;
+}
+
+.imgbox {
+    margin-top: 50px;
 }

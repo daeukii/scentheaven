@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css';
 import { useState } from 'react';
+import Weather from '../../components/Weather/Weather';
 
 export default function Header() {
   const [active,setActive] = useState("nav__menu");
@@ -19,6 +20,7 @@ export default function Header() {
     <nav className="nav">
       <Link to='/' class="nav__brand">ScentsHeaven</Link>
       <ul className={active}>
+                <Weather />
         <li className="nav__item"><Link to='/Perfume' className="nav__link">향수</Link></li>
         <li className="nav__item"><Link to='/Body' className="nav__link">바디</Link></li>
         <li className="nav__item"><Link to='/Candle' className="nav__link">캔들</Link></li>

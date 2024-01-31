@@ -1,0 +1,135 @@
+.submiT {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'KCCChassam';
+}
+
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #5072A7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'KCCChassam';
+}
+
+.mbti-mbti {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.mbti-infomation {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.mbti-name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.mbti-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.container:hover {
+  transition: 1s ease-in-out;
+  flex-direction: column;
+}
+
+.container .card:hover {
+  height: 500px;
+}
+
+.container .card .imgbx {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  bottom: 50px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .imgbx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container .card .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+@keyframes moving {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(50px, 0);
+  }
+}
+
+@keyframes movingback {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(100px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+
+.flex-box-height-wrap {
+  display: flex;
+  min-height: 150px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.perfume_c {
+  margin: 300px 0 300px 0;
+}
+
+.text {
+  margin: 40px 0 40px 0;
+}
+
+.imgbox {
+  margin-top: 50px;
+}

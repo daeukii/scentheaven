@@ -24,17 +24,17 @@ export default function Perfume() {
 
   return (
     <div>
-    <div className='perfume_c'>
-      <div className='name_price'>
+    <div>
+      <div>
         {products[0].name}
         {products[0].price}
-        <div className='imgbox'>
+        <div>
           <img src={products[0].img} />
         </div>
-        <div className='text'>
+        <div>
           {products[0].txt}
         </div>
-        <div className='note'>
+        <div>
           {products[0].topnote}
           {products[0].middlenote}
           {products[0].basenote}
@@ -42,17 +42,17 @@ export default function Perfume() {
       </div>
     </div>
 
-    <div className='perfume_c'>
-      <div className='name_price'>
+    <div>
+      <div>
         {products[1].name}
         {products[1].price}
-        <div className='imgbox'>
+        <div>
           <img src={products[1].img} />
         </div>
-        <div className='text'>
+        <div>
           {products[1].txt}
         </div>
-        <div className='note'>
+        <div>
           {products[1].topnote}
           {products[1].middlenote}
           {products[1].basenote}
@@ -60,17 +60,17 @@ export default function Perfume() {
       </div>
     </div>
 
-    <div className='perfume_c'>
-      <div className='name_price'>
+    <div>
+      <div>
         {products[2].name}
         {products[2].price}
-        <div className='imgbox'>
+        <div>
           <img src={products[2].img} />
         </div>
-        <div className='text'>
+        <div>
           {products[2].txt}
         </div>
-        <div className='note'>
+        <div>
           {products[2].topnote}
           {products[2].middlenote}
           {products[2].basenote}
@@ -78,17 +78,17 @@ export default function Perfume() {
       </div>
     </div>
 
-    <div className='perfume_c'>
-      <div className='name_price'>
+    <div>
+      <div>
         {products[3].name}
         {products[3].price}
-        <div className='imgbox'>
+        <div>
           <img src={products[3].img} />
         </div>
-        <div className='text'>
+        <div>
           {products[3].txt}
         </div>
-        <div className='note'>
+        <div>
           {products[3].topnote}
           {products[3].middlenote}
           {products[3].basenote}
@@ -96,17 +96,17 @@ export default function Perfume() {
       </div>
     </div>
 
-    <div className='perfume_c'>
-      <div className='name_price'>
+    <div>
+      <div>
         {products[4].name}
         {products[4].price}
-        <div className='imgbox'>
+        <div>
           <img src={products[4].img} />
         </div>
-        <div className='text'>
+        <div>
           {products[4].txt}
         </div>
-        <div className='note'>
+        <div>
           {products[4].topnote}
           {products[4].middlenote}
           {products[4].basenote}
@@ -114,17 +114,17 @@ export default function Perfume() {
       </div>
     </div>
 
-    <div className='perfume_c'>
-      <div className='name_price'>
+    <div>
+      <div>
         {products[5].name}
         {products[5].price}
-        <div className='imgbox'>
+        <div>
           <img src={products[5].img} />
         </div>
-        <div className='text'>
+        <div>
           {products[5].txt}
         </div>
-        <div className='note'>
+        <div>
           {products[5].topnote}
           {products[5].middlenote}
           {products[5].basenote}
@@ -132,8 +132,33 @@ export default function Perfume() {
       </div>
     </div>
 
+    <div>
+          {products[5].topnote}
+          {products[5].middlenote}
+          {products[5].basenote}
+        </div>
+        <div>
+          {products[5].topnote}
+          {products[5].middlenote}
+          {products[5].basenote}
+        </div>
+        <div>
+          {products[5].topnote}
+          {products[5].middlenote}
+          {products[5].basenote}
+        </div>
+        <div>
+          {products[5].topnote}
+          {products[5].middlenote}
+          {products[5].basenote}
+        </div>
+        <div>
+          {products[5].topnote}
+          {products[5].middlenote}
+          {products[5].basenote}
+        </div>
+
     </div>
-    
   )
 }
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import './Weather.css';
 
 export default function Weather() {
 
@@ -20,6 +21,6 @@ export default function Weather() {
   }, []);
 
   return (
-      <p>오늘의 날씨 {weather}</p>
+      <p>오늘의 날씨 <span className='weather-text'>{weather}</span></p>
   )
 }

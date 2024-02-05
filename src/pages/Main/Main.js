@@ -18,7 +18,6 @@ export default function Main() {
 
     return (
         <div>
-           
             <div className='react-vid'> 
                 <ReactPlayer
                     url={"https://youtu.be/DHB6gEKf34U"}

@@ -17,14 +17,14 @@ export default function Candle() {
   },[]);
 
   return (
-    <div className='name__price'>
+    <div>
     <div>
       {products[9].name}
       {products[9].price}
-      <div className='imgbox'>
+      <div>
         <img src={products[9].img} />
       </div>
-      <div className='text'>
+      <div>
         {products[9].txt}
       </div>
     </div>

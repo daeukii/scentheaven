@@ -133,3 +133,17 @@ body {
 .imgbox {
   margin-top: 50px;
 }
+
+.goMbti {
+  margin-top: 15px;
+}
+
+.goMbti a {
+  color: #5072A7;
+  text-decoration: none;
+  background-color: silver;
+}
+
+.mbtiex {
+  margin: 30px 0 30px 0;
+}

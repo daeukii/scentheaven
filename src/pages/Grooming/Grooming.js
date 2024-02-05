@@ -19,14 +19,14 @@ export default function Grooming() {
   },[]);
 
   return (
-    <div className='name__price'>
+    <div>
       <div>
         {products[13].name}
         {products[13].price}
-        <div className='imgbox'>
+        <div>
           <img src={products[13].img} />
         </div>
-        <div className='text'>
+        <div>
           {products[13].txt}
         </div>
       </div>

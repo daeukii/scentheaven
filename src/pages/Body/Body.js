@@ -18,14 +18,14 @@ export default function Body() {
 
   return (
     <div>
-    <div className='name__price'>
+    <div>
       <div>
         {products[6].name}
         {products[6].price}
-        <div className='imgbox'>
+        <div>
           <img src={products[6].img} />
         </div>
-        <div className='text'>
+        <div>
           {products[6].txt}
         </div>
       </div>

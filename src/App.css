@@ -23,6 +23,8 @@ time, mark, audio, video {
 .App {
   text-align: center;
   font-family: 'KCCChassam';
+  overflow-y: scroll;
+  max-height: 500px; /* 스크롤바가 나타날 최대 높이 */
 }
 
 
@@ -32,6 +34,8 @@ time, mark, audio, video {
   font-weight: normal;
   font-style: normal;
 }
+
+
 
 
 

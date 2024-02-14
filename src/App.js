@@ -10,15 +10,25 @@ import Grooming from './pages/Grooming/Grooming';
 import Mbti from './pages/MBTI/Mbti';
 import BackToTopText from './components/ScrollButton/BackToTopText';
 import Announcement from './Announcement';
+import React, { useState, useEffect } from "react";
 
 function App() {
+
+  const [message, setMessage] = useState("");
+  useEffect(() => {
+    fetch('hello')
+    .then(response => response.text())
+    .then(message => {
+      setMessage(message);
+    });
+  }, [])
 
   return (
     <BrowserRouter>
       <div className="App">
-      <Announcement/>
-    <BackToTopText />
-        <Header/>
+        <Announcement />
+        <BackToTopText />
+        <Header />
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/perfume" element={<Perfume />} />
@@ -27,7 +37,8 @@ function App() {
           <Route path="/grooming" element={<Grooming />} />
           <Route path="/Mbti" element={<Mbti />} />
         </Routes>
-        <Footer/>
+        <h1 className="App-title">{message}</h1>
+        <Footer />
       </div>
     </BrowserRouter>
   );
